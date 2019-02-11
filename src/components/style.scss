@@ -1,14 +1,76 @@
 // Importing variables
+@import url('https://cloud.typography.com/6559692/6509212/css/fonts.css');
 @import './variables.scss';
 
 // Importing Bulma from node_modules
 @import '~bulma/bulma.sass';
 
-.gradientBg {
-	display: flex;
-	background: linear-gradient(to right, $primary-color, $secondary-color);
-}
 
+$orange: #FF5335;
+$brown:#B29C85;
+$teal:#306E73;
+$grey: #3B424C;
+$dark: #1D181F;
+
+body{
+	font-size: 16px;
+}
+body, button, input, select, textarea{
+    font-family: "Hoefler Titling A", "Hoefler Titling B";
+    font-style: normal;
+    font-weight: 300;
+}
+.is-size-1{
+    font-family: "Gotham Cond SSm A", "Gotham Cond SSm B";
+    font-style: normal;
+	font-weight: 600;
+	font-size: 6rem !important;
+}
+.is-size-2{
+	font-size: 3rem !important;
+}
+.is-size-3{
+	line-height: 1.75em;
+}
+.hero{
+	
+}
+.hero{
+	hr{
+		height: 10px;
+		margin-left: 5px;
+		margin-bottom:50px;
+		width: 100px;
+	}
+	&.primary{
+		background: linear-gradient(120deg, $grey 0%, $dark 150%);
+		h1{
+			color: $orange;
+			
+		}
+		p{
+			color: rgba(256,256,256,0.9);
+			
+		}
+		hr{
+			background-color: rgba(256,256,256,0.1);
+			
+		}
+	}
+	&.secondary{
+		background: linear-gradient(120deg, #fff 0%, $grey 300%);
+		h1{
+			color: $teal;
+		}	
+		p{
+			color: $dark;
+		}
+		hr{
+			background-color: $dark;
+			opacity: 0.1;
+		}
+	}
+}
 .center {
 	display: flex;
 	justify-content: center;
