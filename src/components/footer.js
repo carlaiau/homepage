@@ -31,7 +31,7 @@ class Footer extends React.Component{
 			  Although I can design to some degree of not crap-iness, I work best alongside talented creatives.
 			</p>
             <p className="subtitle is-size-4">
-				Away from the terminal I love guzzling coffee, pulling deadlifts and avoiding social media apart from refreshing Elon's twitter feed.
+				Away from the terminal I love guzzling coffee, pulling deadlifts and refreshing Elon's twitter feed.
 			</p>
           </div>
           <div className="column is-one-third-desktop">
