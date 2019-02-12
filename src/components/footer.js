@@ -21,17 +21,16 @@ class Footer extends React.Component {
             <div className="columns is-space-between is-desktop">
               <div className="column is-half-desktop">
                 <p className="subtitle is-size-4">
-                  If you've read this far, we should definitely catch up for a
-                  yarn. I'm currently based in Dunedin, New Zealand but work
-                  with clients globally.
+					If you've read this far, let's catch up. I'm currently based in Dunedin, New Zealand but happily work
+                  	with clients globally. 
                 </p>
                 <p className="subtitle is-size-4">
                   I'm fizzed up about static site generation and headless
-                  Wordpress. If you're after state of the art performance get in
+                  WordPress. If you're after state of the art performance get in
                   touch.
                 </p>
                 <p className="subtitle is-size-4">
-                  Away from the terminal I love guzzling coffee, pulling
+                  Away from the MacBook I love guzzling coffee, pulling
                   deadlifts and refreshing Elon's twitter feed.
                 </p>
               </div>

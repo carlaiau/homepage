@@ -13,12 +13,12 @@ const Content = () => (
               <p className="subtitle is-size-4">
                 I have been a freelance developer since 2012, starting with PHP,
                 and naturally progressing to the wonderful world of modern
-                Javascript. All of my Wordpress projects are built with Beans
+                Javascript. All of my WordPress projects are built with Beans
                 and Carbon Fields. This modular combination provides fast
                 iterative development with minimal code. Which results in a
                 secure and maintainable site for content managers and future
                 developers alike. I avoid relying on stacks of plugins, they are
-                Wordpress' achilles heel.
+                WordPress' achilles heel.
               </p>
               <p className="subtitle is-size-4">
                 I'm excited about static site generators and the rise of the
@@ -111,14 +111,13 @@ const Content = () => (
               <h2 className="is-size-1">Computer scientist</h2>
               <hr />
               <p className="subtitle is-size-4">
-                In 2018 I completed a Graduate Diploma in Computer Science from
-                Otago University, and am pursuing my Masters.
+                In 2018 I completed a DipGrad in Computer Science at
+                Otago University, and am partway through my Masters.
               </p>
               <p className="subtitle is-size-4">
                 Freelancing before my academic studies has given me a unique
                 combination that most graduates (and freelancers) are lacking.
-                Diverse project experience, a thorough understanding of computer
-                science fundamentals and the confidence to execute.
+                Diverse project experience, a thorough understanding of COSC fundamentals and the confidence to execute given a wide calibre of specifications.
               </p>
               <p className="subtitle is-size-4">
                 I'm currently working through fast.ai's practical deep learning
