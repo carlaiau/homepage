@@ -27,11 +27,11 @@ class Footer extends React.Component{
             </p>
             <p className="subtitle is-size-4">
               As you've already guessed, I'm very interested in static site
-              generation or headless Wordpress and Woocommerce. 
-			  If you want state of the art performance fill out your details and I'll be in touch as soon as possible.
+              generation and headless Wordpress. If you want state of the art performance fill out your details and I'll be in touch as soon as possible.
+			  Although I can design to some degree of not crap-iness, I work best alongside talented creatives.
 			</p>
             <p className="subtitle is-size-4">
-				Away from the terminal I love guzzling coffee, pulling deadlifts and refreshing Elon's twitter feed.
+				Away from the terminal I love guzzling coffee, pulling deadlifts and avoiding social media apart from refreshing Elon's twitter feed.
 			</p>
           </div>
           <div className="column is-one-third-desktop">
