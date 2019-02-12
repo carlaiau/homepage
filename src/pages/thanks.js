@@ -1,8 +1,5 @@
 import React from "react";
 import Particles from "react-particles-js";
-import {
-    FaChevronLeft
-  } from "react-icons/fa";
 import { Link } from 'gatsby'
 
 const ThanksPage = () => (
