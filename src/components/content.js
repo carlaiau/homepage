@@ -8,7 +8,7 @@ const Content = () => (
         <div className="container">
           <div className="columns">
             <div className="column is-three-quarters-desktop">
-              <h1 className="is-size-1">Obsessed Developer</h1>
+              <h1 className="is-size-1">Obsessed with code</h1>
               <hr />
               <p className="subtitle is-size-4">
                 I have been a freelance developer since 2012, starting with PHP,
@@ -42,11 +42,10 @@ const Content = () => (
         <div className="container">
           <div className="columns">
             <div className="column is-three-quarters-desktop">
-              <h2 className="is-size-1">Computer Science</h2>
+              <h2 className="is-size-1">Computer scientist</h2>
               <hr />
               <p className="subtitle is-size-4">
-                In 2018 I completed a Graduate Diploma in Computer Science
-                from Otago University, and am pursuing my Masters, to be completed mid 2020.
+                In 2018 I completed a Graduate Diploma in Computer Science from Otago University, and am pursuing my Masters to be completed 2020. I also have a Finance degree from aeons ago.
               </p>
               <p className="subtitle is-size-4">
                 Freelancing before my academic studies has given me a unique
@@ -55,8 +54,7 @@ const Content = () => (
                 fundamentals and the confidence to execute.
               </p>
               <p className="subtitle is-size-4">
-                I'm obsessed with the disruption artifical intelligence is causing and am currently working through
-                fast.ai's practical deep learning courses. Blog posts and Python notebooks coming soon!
+                I'm currently working through fast.ai's practical deep learning courses. Blog posts and Python notebooks coming soon!
               </p>
             </div>
           </div>

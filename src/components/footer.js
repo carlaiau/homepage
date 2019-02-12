@@ -17,17 +17,17 @@ class Footer extends React.Component{
   <section className="hero coffee is-fullheight" id="section-3">
     <div className="hero-body">
       <div className="container">
-        <h1 className="is-size-1">Lets Get Coffee</h1>
+        <h1 className="is-size-1">Lets get coffee</h1>
         <hr />
         <div className="columns is-space-between is-desktop">
           <div className="column is-half-desktop">
             <p className="subtitle is-size-4">
-              If you've read this far, we should catch up for a yarn. I'm
-              physically based in Dunedin, New Zealand but work with clients globally.
+              If you've read this far, we should definitely catch up for a yarn. I'm
+              currently based in Dunedin, New Zealand but work with clients globally.
             </p>
             <p className="subtitle is-size-4">
               As you've already guessed, I'm very interested in static site
-              generation and headless Wordpress. If you want state of the art performance fill out your details and I'll be in touch as soon as possible.
+              generation and headless Wordpress. If you're after state of the art performance get in touch!
 			</p>
             <p className="subtitle is-size-4">
 				Away from the terminal I love guzzling coffee, pulling deadlifts and refreshing Elon's twitter feed.

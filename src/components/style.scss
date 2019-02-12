@@ -129,7 +129,9 @@ p{
 		color: #fff;
 	}
 	&.primary{
-		background: radial-gradient(circle at 50% 200%, $teal 0%, $dark 80%);
+		//background: radial-gradient(circle at 50% 200%, $teal 0%, $dark 85%);
+		//background: radial-gradient(circle at 200% 50%, $teal 0%, $dark 90%);
+		background: radial-gradient(circle at 250% 50%, $teal 0%, $dark 100%);
 		.is-size-1, .more {
 			color: $orange;
 			
@@ -161,7 +163,8 @@ p{
 		}
 	}
 	&.secondary{
-		background: linear-gradient(120deg, #fff 0%, $grey 300%);
+		//background: radial-gradient(circle at 200% 50%, #fff 0%, $grey 300%);
+		background: #fff;
 		.is-size-1{
 			color: $teal;
 		}	
@@ -183,8 +186,12 @@ p{
 		}
 	}
 	&.coffee{
+		background: radial-gradient(circle at 250% 50%, $brown 0%, #fff 100%);
+		@media screen and (max-width: 412px){
+			background: radial-gradient(circle at 500% 50%, $brown 0%, #fff 100%);
+			background: #fff;
+		}
 
-		background: linear-gradient(120deg, #fff 0%, $brown 250%);
 		h1{
 			
 			color: $brown;

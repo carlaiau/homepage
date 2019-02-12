@@ -24,7 +24,7 @@ const ThanksPage = () => (
               speed: 3
             },
             size: {
-              value: 3
+              value: 2
             },
             opacity: {
               anim: {
