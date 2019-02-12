@@ -1,7 +1,7 @@
 import React from "react";
 import { StaticQuery, graphql } from "gatsby";
 import Helmet from "react-helmet";
-import faviconICO from '../images/favicon.ico'
+import faviconICO from "../images/favicon.ico";
 export default () => (
   <StaticQuery
     query={graphql`
@@ -30,7 +30,7 @@ export default () => (
           itemprop="description"
           content={data.site.siteMetadata.description}
         />
-		<link rel='shortcut icon' type='image/x-icon' href={faviconICO} />
+        <link rel="shortcut icon" type="image/x-icon" href={faviconICO} />
       </Helmet>
     )}
   />
