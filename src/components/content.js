@@ -18,7 +18,7 @@ const Content = () => (
                 maintainable site for content managers and future developers alike. I avoid relying on stacks of plugins, they are Wordpress' achilles heel.
               </p>
               <p className="subtitle is-size-4">
-                I'm really excited about static site generators and the rise of the headless CMS. With tools like React, Hugo and GatsbyJS we can and will build the fastest websites in the world.
+                I'm excited about static site generators and the rise of the headless CMS. With tools like React, Hugo and GatsbyJS we can build the fastest websites in the world.
                 I love clean code and high <a href="https://developers.google.com/speed/pagespeed/insights/?url=https%3A%2F%2Fcarlaiau.com&tab=desktop" target="blank"  rel="noopener noreferrer">PageSpeed</a> scores. Speed matters. 
                 And you know it does, because you've ditched plenty of unresponsive sites. Your customers aren't any different from you.
                 
@@ -45,7 +45,7 @@ const Content = () => (
               <h2 className="is-size-1">Computer scientist</h2>
               <hr />
               <p className="subtitle is-size-4">
-                In 2018 I completed a Graduate Diploma in Computer Science from Otago University, and am pursuing my Masters to be completed 2020. I also have a Finance degree from aeons ago.
+                In 2018 I completed a Graduate Diploma in Computer Science from Otago University, and am pursuing my Masters to be completed sometime soon.
               </p>
               <p className="subtitle is-size-4">
                 Freelancing before my academic studies has given me a unique
