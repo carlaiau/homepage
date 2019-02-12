@@ -28,7 +28,7 @@ const Content = () => (
                 My portfolio is a work in progress, but briefly:
                 </p> 
                 <p className="subtitle is-size-4">I am the technical co-founder of <a href="https://likeabook.io" target="_blank" rel="noopener noreferrer" >Likeabook</a> and <a href="https://travelinfluencers.co" target="_blank" rel="noopener noreferrer" >Travel Influencers</a>. 
-                Recent freelance projects I've built (and some designed) are <a href="https://www.southerncrossflutes.com/" target="_blank" rel="noopener noreferrer" >Southern Cross Flutes</a>, <a href="https://ecotricity.co.nz/" target="_blank" rel="noopener noreferrer" >Ecotricity</a>, <a href="http://generositycoffee.org.nz/" target="_blank" rel="noopener noreferrer" >Generosity Coffee</a>, <a href="https://www.hempme.com.au/" target="_blank" rel="noopener noreferrer" >Hemp Me</a> and the <a href="https://ageingwellchallenge.co.nz"  target="_blank" rel="noopener noreferrer">Ageing Well National Science Challenge</a>.
+                Some recent freelance projects I've built are <a href="https://www.southerncrossflutes.com/" target="_blank" rel="noopener noreferrer" >Southern Cross Flutes</a>, <a href="https://ecotricity.co.nz/" target="_blank" rel="noopener noreferrer" >Ecotricity</a>, <a href="http://generositycoffee.org.nz/" target="_blank" rel="noopener noreferrer" >Generosity Coffee</a>, <a href="https://www.hempme.com.au/" target="_blank" rel="noopener noreferrer" >Hemp Me</a> and the <a href="https://ageingwellchallenge.co.nz"  target="_blank" rel="noopener noreferrer">Ageing Well National Science Challenge</a>.
                 
               </p>
               
