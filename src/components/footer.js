@@ -8,7 +8,10 @@ import {
   FaDollarSign
 } from "react-icons/fa";
 
-const Footer = () => (
+class Footer extends React.Component{
+
+	render(){
+		return(
   <section className="hero coffee is-fullheight" id="section-3">
     <div className="hero-body">
       <div className="container">
@@ -127,7 +130,7 @@ const Footer = () => (
                 </div>
               </div>
               <p class="control">
-                <a class="button is-primary is-large">
+                <a class="button is-primary is-large" type="submit">
                   Say hi! <FaSmile />
                 </a>
               </p>
@@ -137,6 +140,8 @@ const Footer = () => (
       </div>
     </div>
   </section>
-);
+		)
+	}
+}
 
 export default Footer;
