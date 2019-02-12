@@ -12,10 +12,10 @@ const Content = () => (
               <hr />
               <p className="subtitle is-size-4">
                 I have been a freelance developer since 2012, starting with PHP,
-                and more recently upgrading to modern Javascript. All of my
+                and naturally progressing to the wonderful world of modern Javascript. All of my
                 Wordpress projects are built with Beans and Carbon Fields. This
                 modular combination provides fast iterative development with minimal code. Which results in a secure and
-                maintainable site for content managers and future developers alike. I avoid relying on stacks of plugins, they are Wordpress's achilles heel.
+                maintainable site for content managers and future developers alike. I avoid relying on stacks of plugins, they are Wordpress' achilles heel.
               </p>
               <p className="subtitle is-size-4">
                 I'm really excited about static site generators and the rise of the headless CMS. With tools like React, Hugo and GatsbyJS we can and will build the fastest websites in the world.
