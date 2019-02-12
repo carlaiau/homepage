@@ -5,7 +5,8 @@ import {
   FaCoffee,
   FaRegSmileWink,
   FaSmile,
-  FaDollarSign
+  FaDollarSign,
+  FaRocket
 } from "react-icons/fa";
 import { IconContext } from "react-icons";
 
@@ -22,15 +23,15 @@ class Footer extends React.Component{
           <div className="column is-half-desktop">
             <p className="subtitle is-size-4">
               If you've read this far, we should catch up for a yarn. I'm
-              physically based in Dunedin, New Zealand but available globally.
+              physically based in Dunedin, New Zealand but work with clients globally.
             </p>
             <p className="subtitle is-size-4">
               As you've already guessed, I'm very interested in static site
-              generation, the JAMstack, or headless Wordpress and Woocommerce.
+              generation or headless Wordpress and Woocommerce. 
+			  If you want state of the art performance fill out your details and I'll be in touch as soon as possible.
 			</p>
             <p className="subtitle is-size-4">
-				If you want SOTA performance fill out your details and I'll be in
-				touch as soon as possible.
+				Away from the terminal I love guzzling coffee, pulling deadlifts and refreshing Elon's twitter feed.
 			</p>
           </div>
           <div className="column is-one-third-desktop">
