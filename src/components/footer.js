@@ -1,66 +1,100 @@
 import React from 'react';
-import { FaTwitter, FaGithub, FaMedium } from 'react-icons/fa';
-import { StaticQuery, graphql } from 'gatsby';
-import './style.scss';
-import Emoji from './emoji';
+import { FaAt, FaUser, FaCoffee, FaRegSmileWink, FaRocket, FaRobot, FaSmile } from 'react-icons/fa'
 
 const Footer = () => (
-	<StaticQuery
-		query={graphql`
-			query SocialQuery {
-				site {
-					siteMetadata {
-						gatsby
-						bulma
-						twitter
-						medium
-						github
-					}
-				}
-			}
-		`}
-		render={data => (
-			<footer className="footer center has-background-light">
-				<div className="content has-text-centered">
-					<p className="is-size-4">
-						This website was handcrafted with plenty cups of{' '}
-						<Emoji emoji="☕" />
-					</p>
-					<p className="is-size-4">
-						By Aman Mittal (@amahimself) using{' '}
-						<a href={data.site.siteMetadata.gatsby}>Gatsby</a> +{' '}
-						<a href={data.site.siteMetadata.bulma}>Bulma</a>
-					</p>
-					<article className="media center">
-						<span className="icon">
-							<a href={data.site.siteMetadata.twitter}>
-								<FaTwitter size="fa-2x" color="blue" />
-							</a>
-						</span>
-						&nbsp;
-						<span className="icon">
-							<a href={data.site.siteMetadata.github}>
-								<FaGithub size="fa-2x" color="black" />
-							</a>
-						</span>
-						&nbsp;
-						<span className="icon">
-							<a href={data.site.siteMetadata.medium}>
-								<FaMedium size="fa-2x" color="green" />
-							</a>
-						</span>
-						&nbsp;
-					</article>
-					&nbsp;
-					<p className="is-size-5">
-						You can also back or support this project for me to keep it updated
-						by{' '}
-						<a href="https://www.paypal.me/amanhimself/2">Buying Me a Coffee</a>
-					</p>
-				</div>
-			</footer>
-		)}
-	/>
+	<section className="hero coffee is-fullheight" id="section-3">
+            <div className="hero-body">
+                <div className="container">
+                    <h1 className="is-size-1">Lets Get Coffee</h1>
+                    <hr />
+                    <div className="columns is-space-between is-desktop">
+                        <div className="column is-half-desktop">
+                            <p className="subtitle is-size-4">
+                                If you've read this far, we should catch up for a yarn. I'm physically based in Dunedin,
+                                New Zealand but available globally.
+                            </p>
+                            <p className="subtitle is-size-4">
+                                I'm very interested in static generation projects or running Wordpress and WooCommerce
+                                headless, with a React or Vue powered frontend.
+                            </p>
+                            <p className="subtitle is-size-4">
+                                If any of the above appeals to you, please fill out your details and I'll be in touch as
+                                soon as possible.
+                            </p>
+                        </div>
+                        <div className="column is-one-third-desktop">
+                            <form>
+                                <div class="field">
+                                    <div class="control has-icons-left has-icons-right">
+                                        <input class="input is-large" type="email" placeholder="Name" />
+                                        <span class="icon is-large is-left">
+                                            <FaUser />
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="field">
+                                    <div class="control has-icons-left has-icons-right">
+                                        <input class="input is-large" type="email" placeholder="Email" />
+                                        <span class="icon is-large is-left">
+                                            <FaAt />
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="field">
+                                    <div className="control has-icons-left">
+                                        <div className="select is-large">
+                                            <select required>
+                                                <option value="" disabled selected>Help With?</option>
+                                                <option value="wordpress">WordPress</option>
+                                                <option value="woocommerce">WooCommerce</option>
+                                                <option value="gatsbyJs/Hugo">GatsbyJS / Hugo</option>
+                                                <option value="full stack">Full Stack Application</option>
+                                                <option value="react">React</option>
+                                            </select>
+                                        </div>
+                                        <span class="icon is-large is-left">
+                                            <FaRegSmileWink />
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="field">
+                                    <div class="control">
+                                        <textarea
+                                            class="textarea is-large has-fixed-size"
+                                            placeholder="Your wishlist"
+                                            rows="5"
+                                        />
+                                    </div>
+                                </div>
+                                <div class="field">
+                                    <div className="control has-icons-left">
+                                        <div className="select is-large">
+											<select required>
+                                                <option value="" disabled selected>Preferred Coffee?</option>
+                                                <option value="short black">Short Black</option>
+                                                <option value="long black">Long Black</option>
+                                                <option value="flat white">Flat White</option>
+                                                <option value="latte">Latte</option>
+                                                <option value="mocha">Mocha</option>
+                                                <option value="lots of cream">Lots of cream, lots of sugar</option>
+                                            </select>
+                                        </div>
+                                        <span class="icon is-large is-left">
+                                            <FaCoffee />
+                                        </span>
+                                    </div>
+                                </div>
+                                <p class="control">
+                                    <a class="button is-primary is-large">
+                                        Say hi! <FaSmile />
+                                    </a>
+                                </p>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 );
 
 export default Footer;

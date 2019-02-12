@@ -8,20 +8,20 @@ const Header = ({ siteTitle }) => (
 		<Particles className="backdrop" params={{
 			"particles": {
 				"number": {
-					"value": 80,
+					"value": 50,
 					"density": {
 						"enable": true,
-						"value_area": 1500
+						"value_area": 750
 					}
 				},
 				"line_linked": {
 					"enable": true,
-					"opacity": 0.1,
+					"opacity": 0.02,
 					
 				},
 				"move": {
 					"direction": "right",
-					"speed": 1
+					"speed": 3
 				},
 				"size": {
 					"value": 3

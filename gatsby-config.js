@@ -52,7 +52,7 @@ module.exports = {
 				// develop: true, // Enable while using `gatsby develop`
 				// tailwind: true, // Enable tailwindcss support
 				// whitelistPatterns: [/visible@l/, /hidden@l/, /uk-width\-\d\-\d@l$/],
-				// ignore: ['/components/less/layout.less'], // Ignore files/folders
+				ignore: ['/components/styles.scss'], // Ignore files/folders
 				// purgeOnly : ['components/', '/main.css', 'bootstrap/'], // Purge only these files/folders
 			}
 		}
