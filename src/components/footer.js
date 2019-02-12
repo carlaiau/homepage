@@ -28,7 +28,6 @@ class Footer extends React.Component{
             <p className="subtitle is-size-4">
               As you've already guessed, I'm very interested in static site
               generation and headless Wordpress. If you want state of the art performance fill out your details and I'll be in touch as soon as possible.
-			  Although I can design to some degree of not crap-iness, I work best alongside talented creatives.
 			</p>
             <p className="subtitle is-size-4">
 				Away from the terminal I love guzzling coffee, pulling deadlifts and refreshing Elon's twitter feed.
