@@ -27,7 +27,7 @@ class Footer extends React.Component{
             </p>
             <p className="subtitle is-size-4">
               I'm fizzed up about static site
-              generation and headless Wordpress. If you're after state of the art performance get in touch!
+              generation and headless Wordpress. If you're after state of the art performance get in touch.
 			</p>
             <p className="subtitle is-size-4">
 				Away from the terminal I love guzzling coffee, pulling deadlifts and refreshing Elon's twitter feed.
@@ -141,7 +141,7 @@ class Footer extends React.Component{
               </div>
               <p className="control">
                 <button className="button is-primary is-large" type="submit">
-                  Say hi! 
+                  Say hi
 				  <IconContext.Provider value={{ className: "custom-icon" }}>
 				  	<FaSmile/>
 				  </IconContext.Provider>

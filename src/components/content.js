@@ -54,7 +54,7 @@ const Content = () => (
                 fundamentals and the confidence to execute.
               </p>
               <p className="subtitle is-size-4">
-                I'm currently working through fast.ai's practical deep learning courses. Blog posts and Python notebooks coming soon!
+                I'm currently working through fast.ai's practical deep learning courses. Blog posts and Python notebooks coming soon.
               </p>
             </div>
           </div>
