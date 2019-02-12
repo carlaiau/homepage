@@ -48,7 +48,9 @@ class Footer extends React.Component{
                   <input
                     className="input is-large"
                     type="text"
-                    placeholder="Name"
+					placeholder="Name"
+					name="Name"
+					required
                   />
                   <span className="icon is-large is-left">
                     <FaUser />
@@ -60,7 +62,9 @@ class Footer extends React.Component{
                   <input
                     className="input is-large"
                     type="email"
-                    placeholder="Email"
+					placeholder="Email"
+					name="email"
+					required
                   />
                   <span className="icon is-large is-left">
                     <FaAt />
@@ -107,16 +111,18 @@ class Footer extends React.Component{
               <div className="field">
                 <div className="control">
                   <textarea
+				  	name="message"
                     className="textarea is-large has-fixed-size"
                     placeholder="Your wishlist"
-                    rows="5"
+					rows="5"
+					required
                   />
                 </div>
               </div>
               <div className="field">
                 <div className="control has-icons-left">
                   <div className="select is-large">
-                    <select required>
+                    <select name="coffee" required>
                       <option value="" disabled selected>
                         Preferred Coffee?
                       </option>
