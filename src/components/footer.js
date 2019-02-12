@@ -43,31 +43,31 @@ class Footer extends React.Component{
               data-netlify-honeypot="bot-field"
             >			  
               <input type="hidden" name="form-name" value="contact" />
-              <div class="field">
-                <div class="control has-icons-left has-icons-right">
+              <div className="field">
+                <div className="control has-icons-left has-icons-right">
                   <input
-                    class="input is-large"
+                    className="input is-large"
                     type="text"
                     placeholder="Name"
                   />
-                  <span class="icon is-large is-left">
+                  <span className="icon is-large is-left">
                     <FaUser />
                   </span>
                 </div>
               </div>
-              <div class="field">
-                <div class="control has-icons-left has-icons-right">
+              <div className="field">
+                <div className="control has-icons-left has-icons-right">
                   <input
-                    class="input is-large"
+                    className="input is-large"
                     type="email"
                     placeholder="Email"
                   />
-                  <span class="icon is-large is-left">
+                  <span className="icon is-large is-left">
                     <FaAt />
                   </span>
                 </div>
               </div>
-              <div class="field">
+              <div className="field">
                 <div className="control has-icons-left">
                   <div className="select is-large">
                     <select name="help-with" id="help-with" required>
@@ -81,12 +81,12 @@ class Footer extends React.Component{
                       <option value="random">Something else</option>
                     </select>
                   </div>
-                  <span class="icon is-large is-left">
+                  <span className="icon is-large is-left">
                     <FaRegSmileWink />
                   </span>
                 </div>
               </div>
-              <div class="field">
+              <div className="field">
                 <div className="control has-icons-left">
                   <div className="select is-large">
                     <select name="budget" id="budget" required>
@@ -99,21 +99,21 @@ class Footer extends React.Component{
                       <option value="$25,000+">$25,000 and above</option>
                     </select>
                   </div>
-                  <span class="icon is-large is-left">
+                  <span className="icon is-large is-left">
                     <FaDollarSign />
                   </span>
                 </div>
               </div>
-              <div class="field">
-                <div class="control">
+              <div className="field">
+                <div className="control">
                   <textarea
-                    class="textarea is-large has-fixed-size"
+                    className="textarea is-large has-fixed-size"
                     placeholder="Your wishlist"
                     rows="5"
                   />
                 </div>
               </div>
-              <div class="field">
+              <div className="field">
                 <div className="control has-icons-left">
                   <div className="select is-large">
                     <select required>
@@ -129,7 +129,7 @@ class Footer extends React.Component{
                       </option>
                     </select>
                   </div>
-                  <span class="icon is-large is-left">
+                  <span className="icon is-large is-left">
                     <FaCoffee />
                   </span>
                 </div>
