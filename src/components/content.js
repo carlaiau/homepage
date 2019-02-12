@@ -10,11 +10,11 @@ const Content = () => (
                             <h1 className="is-size-1">Obsessed Developer</h1>
                             <hr />
                             <p className="subtitle is-size-4">
-                                I have been a freelance developer since 2012, starting with PHP, and over the last
-                                couple years modern Javascript. All of my Wordpress builds are based on Beans and Carbon
-                                Fields. This modular combination results in a very fast, secure and maintainable site. I
-                                avoid relying on plugins, unless they're created by a solid team and fill a solid
-                                requirement.
+                                I have been a freelance developer since 2012, starting with PHP, and more recently
+                                upgrading to modern Javascript. All of my Wordpress builds are based on Beans and
+                                CarbonFields. This modular combination results in a very fast, secure and maintainable
+                                site. I avoid relying on plugins, unless they're created by a solid team and fill a
+                                solid requirement.
                             </p>
                             <p className="subtitle is-size-4">
                                 I love fast load times, clean code and optimising the end user experience. Recently I
@@ -62,7 +62,7 @@ const Content = () => (
         <section className="hero coffee is-fullheight" id="section-3">
             <div className="hero-body">
                 <div className="container">
-                    <h1 className="is-size-1">Lets get Coffee</h1>
+                    <h1 className="is-size-1">Lets Get Coffee</h1>
                     <hr />
                     <div className="columns is-space-between is-vcentered is-desktop">
                         <div className="column is-half-desktop">
@@ -75,8 +75,8 @@ const Content = () => (
                                 headless, with a React or Vue powered frontend.
                             </p>
                             <p className="subtitle is-size-4">
-                                If any of the above appeals to you, please fill out your details and I'll be in touch as soon
-                                as possible. 
+                                If any of the above appeals to you, please fill out your details and I'll be in touch as
+                                soon as possible.
                             </p>
                         </div>
                         <div className="column is-one-third-desktop">
