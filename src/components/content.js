@@ -13,10 +13,9 @@ const Content = () => (
               <p className="subtitle is-size-4">
                 I have been a freelance developer since 2012, starting with PHP,
                 and more recently upgrading to modern Javascript. All of my
-                Wordpress builds are based on Beans and Carbon Fields. This
-                modular combination results in a very fast, secure and
-                maintainable site. I avoid relying on plugins, unless they're
-                created by a solid team and fill a solid requirement.
+                Wordpress projects are built with Beans and Carbon Fields. This
+                modular combination provides fast iterative development with minimal code and results in a secure and
+                maintainable site both for content managers and future developers. I avoid relying on stacks of plugins, they are Wordpress's achilles heel.
               </p>
               <p className="subtitle is-size-4">
                 I love fast load times, clean code and optimising the end user
