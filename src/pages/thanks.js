@@ -46,7 +46,7 @@ const ThanksPage = () => (
               I will be in touch shortly.
             </p>
             <p className="subtitle is-size-2">
-            <Link to='/'>Back Home</Link>
+            Back <Link to='/'>Home</Link>
             </p>
           </div>
         </div>
