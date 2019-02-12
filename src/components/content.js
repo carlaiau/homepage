@@ -76,7 +76,7 @@ const Content = () => (
                             </p>
                             <p className="subtitle is-size-4">
                                 If any of the above appeals to you, please fill out your details and I'll be in touch as soon
-                                as possible.
+                                as possible. 
                             </p>
                         </div>
                         <div className="column is-one-third-desktop">
