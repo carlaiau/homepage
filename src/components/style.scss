@@ -12,8 +12,26 @@ $teal:#306E73;
 $grey: #3B424C;
 $dark: #1D181F;
 
-body{
-	font-size: 16px;
+html{
+	
+	font-size: 12px;
+	
+	@media screen  and (min-width: 810px){
+		font-size: 13px;
+	}
+	
+	@media screen  and (min-width: 1024px){
+		font-size: 14px;
+	}
+	@media screen  and (min-width: 1200px){
+		font-size: 16px;
+	}
+	@media screen  and (min-width: 1400px){
+		font-size: 21px;
+	}
+	@media screen  and (min-width: 1600px){
+		font-size: 24px;
+	}
 }
 body, button, input, select, textarea{
     font-family: "Hoefler Titling A", "Hoefler Titling B";
@@ -24,17 +42,64 @@ body, button, input, select, textarea{
     font-family: "Gotham Cond SSm A", "Gotham Cond SSm B";
     font-style: normal;
 	font-weight: 600;
-	font-size: 6rem !important;
+	font-size: 4rem !important;
 }
-.is-size-2{
-	font-size: 3rem !important;
+
+.button{
+	font-family: "Gotham Cond SSm A", "Gotham Cond SSm B";
+	font-style: normal;		
+	font-weight: 600;
+	text-transform: uppercase;
+	font-size: 1rem;
+	svg{
+		margin-left: 0.2em;
+	}
+	float: right;
 }
-.is-size-3{
-	line-height: 1.75em;
+.backdrop{
+	position: absolute;
+	height: 100vh;
+	width: 100vw;
 }
-.hero{
-	
+.is-size-4{
+	line-height: 1.7em;
 }
+p{
+	text-align: justify;
+}
+.is-space-between{
+	justify-content: space-between;
+}
+.container{	
+	@media screen  and (max-width: 1024px){
+		padding: 0 10%;
+	}
+	@media screen  and (max-width: 375px){
+		padding: 0 1%;
+	}
+}
+.is-fullheight{
+	.columns{
+		padding: 100px 0;
+		@media screen  and (max-width: 1024px){
+			padding: 50px 0;
+		}
+	}
+	&.coffee{
+		.columns{
+			padding-top: 0;
+		}
+		.is-size-1{
+			padding-top: 100px;
+			@media screen  and (max-width: 1024px){
+				padding-top: 50px;
+			}
+		}
+	}
+}
+
+
+
 .hero{
 	hr{
 		height: 10px;
@@ -42,14 +107,28 @@ body, button, input, select, textarea{
 		margin-bottom:50px;
 		width: 100px;
 	}
+	.more{
+		position: absolute;
+		bottom: 10px;
+		left: 50%;
+		margin-left: -0.5em;
+		font-size: 2rem;
+		color: #fff;
+	}
 	&.primary{
-		background: linear-gradient(120deg, $grey 0%, $dark 150%);
-		h1{
+		background: linear-gradient(90deg, $grey 0%, $dark 100%);
+		h1, .more {
 			color: $orange;
 			
 		}
 		p{
 			color: rgba(256,256,256,0.9);
+			text-align: left;
+			svg{
+				
+				margin-bottom: -0.1em;
+				color: $orange;
+			}
 			
 		}
 		hr{
@@ -64,13 +143,55 @@ body, button, input, select, textarea{
 		}	
 		p{
 			color: $dark;
+			svg{
+				&.small{
+					height: 0.8em;
+					width: 0.8em;
+					
+				}
+				margin-bottom: -0.1em;
+				color: $teal;
+			}
 		}
 		hr{
 			background-color: $dark;
 			opacity: 0.1;
 		}
 	}
+	&.coffee{
+
+		background: linear-gradient(120deg, #fff 0%, $brown 250%);
+		h1{
+			
+			color: $brown;
+			
+		}
+		hr{
+			background-color: $brown;
+			opacity: 0.1;
+		}
+		.select{
+			width: 100%;
+			select{
+				width: 100%;
+			}
+			&:after{
+				border-color: $brown;
+			}
+		}
+		.input, select{
+			background: #fff;
+			&:focus{
+				border-color: $brown;
+			}
+		}
+		textarea{
+			padding: calc(0.375em - 1px) 2.25em;
+		}
+	}
 }
+
+
 .center {
 	display: flex;
 	justify-content: center;
