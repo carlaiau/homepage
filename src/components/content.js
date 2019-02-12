@@ -1,5 +1,6 @@
 import React from "react";
 import { FaRocket } from "react-icons/fa";
+import { IconContext } from "react-icons";
 const Content = () => (
   <div>
     <section className="hero secondary is-fullheight" id="section-1">
@@ -28,7 +29,9 @@ const Content = () => (
                 I avoid dogma, and am continually humbled by the expertise and
                 contribution of others. Away from the terminal I love guzzling
                 coffee, pulling deadlifts and refreshing Elon's twitter feed.{" "}
-                <FaRocket />
+                <IconContext.Provider value={{ className: "custom-icon" }}>
+                    <FaRocket/>
+                </IconContext.Provider>
               </p>
               <p className="subtitle is-size-4">Portfolio in redevelopment.</p>
             </div>

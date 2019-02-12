@@ -7,6 +7,7 @@ import {
   FaSmile,
   FaDollarSign
 } from "react-icons/fa";
+import { IconContext } from "react-icons";
 
 class Footer extends React.Component{
 
@@ -26,9 +27,11 @@ class Footer extends React.Component{
             <p className="subtitle is-size-4">
               As you've already guessed, I'm very interested in static site
               generation, the JAMstack, or headless Wordpress and Woocommerce.
-              If you want SOTA performance fill out your details and I'll be in
-              touch as soon as possible.
-            </p>
+			</p>
+            <p className="subtitle is-size-4">
+				If you want SOTA performance fill out your details and I'll be in
+				touch as soon as possible.
+			</p>
           </div>
           <div className="column is-one-third-desktop">
             <form
@@ -36,7 +39,7 @@ class Footer extends React.Component{
               method="post"
               data-netlify="true"
               data-netlify-honeypot="bot-field"
-            >
+            >			  
               <input type="hidden" name="form-name" value="contact" />
               <div class="field">
                 <div class="control has-icons-left has-icons-right">
@@ -129,10 +132,13 @@ class Footer extends React.Component{
                   </span>
                 </div>
               </div>
-              <p class="control">
-                <a class="button is-primary is-large" type="submit">
-                  Say hi! <FaSmile />
-                </a>
+              <p className="control">
+                <button className="button is-primary is-large" type="submit">
+                  Say hi! 
+				  <IconContext.Provider value={{ className: "custom-icon" }}>
+				  	<FaSmile/>
+				  </IconContext.Provider>
+                </button>
               </p>
             </form>
           </div>

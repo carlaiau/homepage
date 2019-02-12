@@ -56,7 +56,7 @@ body, button, input, select, textarea{
 	font-weight: 600;
 	text-transform: uppercase;
 	font-size: 1rem;
-	svg{
+	.custom-icon{
 		margin-left: 0.2em;
 	}
 	float: right;
@@ -128,8 +128,7 @@ p{
 		}
 		p{
 			color: rgba(256,256,256,0.9);
-			svg{
-				
+			.custom-icon{
 				margin-bottom: -0.1em;
 				color: $orange;
 			}
@@ -150,7 +149,7 @@ p{
 		}	
 		p{
 			color: $dark;
-			svg{
+			.custom-icon{
 				&.small{
 					height: 0.8em;
 					width: 0.8em;
