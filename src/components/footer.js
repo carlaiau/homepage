@@ -36,7 +36,8 @@ class Footer extends React.Component{
           <div className="column is-one-third-desktop">
             <form
               name="contact"
-              method="post"
+			  method="post"
+			  action="/thanks"
               data-netlify="true"
               data-netlify-honeypot="bot-field"
             >			  
@@ -45,7 +46,7 @@ class Footer extends React.Component{
                 <div class="control has-icons-left has-icons-right">
                   <input
                     class="input is-large"
-                    type="email"
+                    type="text"
                     placeholder="Name"
                   />
                   <span class="icon is-large is-left">

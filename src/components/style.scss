@@ -56,6 +56,11 @@ body, button, input, select, textarea{
 	font-weight: 600;
 	text-transform: uppercase;
 	font-size: 1rem;
+	
+	&.is-primary{
+		background-color: $teal;
+		transition: 0.5s;
+	}
 	.custom-icon{
 		margin-left: 0.2em;
 	}
@@ -139,6 +144,16 @@ p{
 		&.first{
 			p{
 				text-align: left;
+				a{
+					color: rgba(256,256,256,0.1);
+					text-decoration: none;
+					border-bottom: 5px solid rgba(256,256,256,0.1);
+					transition: 0.5s;
+					&:hover{
+						color: #fff;
+						border-bottom-color: #fff;
+					}
+				}
 			}
 		}
 	}
