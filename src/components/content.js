@@ -108,7 +108,7 @@ const Content = () => (
         <div className="container">
           <div className="columns">
             <div className="column is-three-quarters-desktop">
-              <h2 className="is-size-1">Computer scientist</h2>
+              <h2 className="is-size-1">Computer science</h2>
               <hr />
               <p className="subtitle is-size-4">
                 In 2018 I completed a DipGrad in Computer Science at
