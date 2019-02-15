@@ -9,29 +9,18 @@ const ThanksPage = () => (
       params={{
         particles: {
           number: {
-            value: 30,
-            density: {
-              enable: true,
-              value_area: 750
-            }
+            value: 20,
           },
           line_linked: {
             enable: true,
-            opacity: 0.02
+            opacity: 0.1
           },
           move: {
             direction: "right",
             speed: 3
           },
           size: {
-            value: 2
-          },
-          opacity: {
-            anim: {
-              enable: true,
-              speed: 1,
-              opacity_min: 0.33
-            }
+            value: 3
           }
         },
         retina_detect: true

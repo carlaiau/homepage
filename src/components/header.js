@@ -1,11 +1,32 @@
 import React from "react";
 import { FaChevronDown } from "react-icons/fa";
-//import Particles from "react-particles-js";
+import Particles from "react-particles-js";
 import AnchorLink from "react-anchor-link-smooth-scroll";
 
 const Header = ({ siteTitle }) => (
   <div>
-    
+    <Particles
+      className="backdrop"
+      params={{
+        particles: {
+          number: {
+            value: 20,
+          },
+          line_linked: {
+            enable: true,
+            opacity: 0.1
+          },
+          move: {
+            direction: "right",
+            speed: 3
+          },
+          size: {
+            value: 3
+          }
+        },
+        retina_detect: true
+      }}
+    />
     <section className="hero primary first is-fullheight">
       <div className="hero-body">
         <div className="container">
