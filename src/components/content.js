@@ -109,7 +109,7 @@ const Content = () => (
                 I can confidently execute across a wide calibre of specifications and business needs.
               </p>
               <p className="subtitle is-size-4">
-                I play with AI for fun. I promise to get Python notebooks up soon, please <AnchorLink className="down" href="#section-3">tell me off</AnchorLink> if I don't
+                I play with AI for fun. I promise to get Python notebooks up soon, please <AnchorLink className="down" href="#section-3">tell me off</AnchorLink> if I don't.
               </p>
               
               
