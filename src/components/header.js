@@ -13,7 +13,7 @@ const Header = ({ siteTitle }) => (
             value: 30,
             density: {
               enable: true,
-              value_area: 750
+              value_area: 1500
             }
           },
           line_linked: {
@@ -31,7 +31,7 @@ const Header = ({ siteTitle }) => (
             anim: {
               enable: true,
               speed: 1,
-              opacity_min: 0.33
+              opacity_min: 0.5
             }
           }
         },
