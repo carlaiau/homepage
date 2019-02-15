@@ -21,16 +21,16 @@ class Footer extends React.Component {
             <div className="columns is-space-between is-desktop">
               <div className="column is-half-desktop">
                 <p className="subtitle is-size-4">
-					If you've read this far, let's catch up. I'm currently based in Dunedin, New Zealand but happily work
-                  	with clients globally. 
+					        I'm from Dunedin, New Zealand. From March onwards I'll be profusely sweating in Canggu, Bali. I happily work
+                  with clients globally.
                 </p>
                 <p className="subtitle is-size-4">
-                  I'm fizzed up about static site generation and headless
+                  I'm fizzed up about React, static site generation and headless
                   WordPress. If you're after state of the art performance get in
                   touch.
                 </p>
                 <p className="subtitle is-size-4">
-                  Away from the MacBook I love guzzling coffee, pulling
+                  Away from my MacBook  I love guzzling coffee, pulling
                   deadlifts and refreshing Elon's twitter feed.
                 </p>
               </div>
@@ -82,6 +82,7 @@ class Footer extends React.Component {
                           <option value="woocommerce">WooCommerce</option>
                           <option value="gatsbyJs/Hugo">GatsbyJS / Hugo</option>
                           <option value="react">React</option>
+                          <option value="where-notebooks">Where are the notebooks?!</option>
                           <option value="random">Something else</option>
                         </select>
                       </div>
@@ -100,7 +101,7 @@ class Footer extends React.Component {
                           <option value="$1000">$1,000 or below</option>
                           <option value="$5000">$5,000</option>
                           <option value="$10000">$10,000</option>
-                          <option value="$25,000+">$25,000 and above</option>
+                          <option value="$25,000+">$25,000 and above</option> 
                         </select>
                       </div>
                       <span className="icon is-large is-left">
@@ -127,11 +128,12 @@ class Footer extends React.Component {
                             Preferred Coffee?
                           </option>
                           <option value="black">Black</option>
-                          <option value="flat-white">Flat White</option>
-                          <option value="latte">Latte</option>
-                          <option value="mocha">Mocha</option>
+                          <option value="white">White</option>
                           <option value="lots of cream">
                             Lots of cream, lots of sugar
+                          </option>
+                          <option value="decaf">
+                            "We don't do decaf"
                           </option>
                         </select>
                       </div>

@@ -241,3 +241,13 @@ p{
 		color: $secondary-color;
 	}
 }
+
+#section-2{
+	a{
+		&.down{
+			color: #fff;
+			padding-bottom: 0px;
+			border-bottom: 1px solid #fff;
+		}	
+	}
+}
