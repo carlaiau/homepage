@@ -10,7 +10,9 @@ const Content = () => (
               <h1 className="is-size-1">Obsessed with code</h1>
               <hr />
               <p className="subtitle is-size-4">
-                I have been a freelance developer since 2012, originally with PHP, and now fixated on modern Javascript. I'm excited about static site generators and the rise of the
+                I have been a freelance developer since 2012, starting with PHP,
+                and now salvating over modern
+                Javascript. I'm excited about static site generators and the rise of the
                 headless CMS. By using Next, Hugo and GatsbyJS we can build the fastest websites in the world.
                 I love clean code and
                 high{" "}
