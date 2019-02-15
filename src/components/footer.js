@@ -30,7 +30,7 @@ class Footer extends React.Component {
                   touch.
                 </p>
                 <p className="subtitle is-size-4">
-                  Away from my MacBook  I love guzzling coffee, pulling
+                  Away from my MacBook  I love drinking copious amounts of coffee, pulling
                   deadlifts and refreshing Elon's twitter feed.
                 </p>
               </div>
