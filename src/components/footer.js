@@ -21,7 +21,7 @@ class Footer extends React.Component {
             <div className="columns is-space-between is-desktop">
               <div className="column is-half-desktop">
                 <p className="subtitle is-size-4">
-					        I'm from Dunedin, New Zealand. From March onwards I'll be profusely sweating in Canggu, Bali. I happily work
+					        I'm from Dunedin, New Zealand and I happily work
                   with clients globally.
                 </p>
                 <p className="subtitle is-size-4">
