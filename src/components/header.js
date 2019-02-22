@@ -21,11 +21,11 @@ const Header = ({ siteTitle }) => (
             opacity: 0.1
           },
           move: {
-            direction: "right",
-            speed: 3
+            direction: "down",
+            speed: 2
           },
           size: {
-            value: 2
+            value: 10
           },
           opacity: {
             anim: {
