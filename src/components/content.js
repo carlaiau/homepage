@@ -24,7 +24,7 @@ const Content = () => (
                 <p className="subtitle is-size-4">
                 All of my traditional WordPress projects are built with Beans and Carbon Fields.
                 This combination offers fast development with modular UIKit and tonnes of functionality out of the box. 
-                Apart from WooCommerce and a few extentions, I have a distaste for plugins.
+                Apart from WooCommerce and a few extensions, I have a distaste for plugins.
               </p>
               <p className="subtitle is-size-4">
                 I am the technical co-founder of{" "}
