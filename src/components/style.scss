@@ -111,23 +111,30 @@ p{
 	}
 }
 
+.more{
+	position: absolute;
+	bottom: 10px;
+	left: 50%;
+	margin-left: -0.5em;
+	font-size: 2rem;
+	color: $teal;
+	transition: 0.5s;
+	&:hover{
+		color: $orange;
+		
+	}
+}
 
 
 .hero{
+	position: relative;
 	hr{
 		height: 10px;
 		margin-left: 5px;
 		margin-bottom:50px;
 		width: 100px;
 	}
-	.more{
-		position: absolute;
-		bottom: 10px;
-		left: 50%;
-		margin-left: -0.5em;
-		font-size: 2rem;
-		color: #fff;
-	}
+	
 	&.primary{
 		//background: radial-gradient(circle at 50% 200%, $teal 0%, $dark 85%);
 		//background: radial-gradient(circle at 200% 50%, $teal 0%, $dark 90%);

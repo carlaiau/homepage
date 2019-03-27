@@ -13,7 +13,7 @@ import { IconContext } from "react-icons";
 class Footer extends React.Component {
   render() {
     return (
-      <section className="hero coffee is-fullheight" id="section-3">
+      <section className="hero coffee is-fullheight" id="section-4">
         <div className="hero-body">
           <div className="container">
             <h1 className="is-size-1">Lets get coffee</h1>
@@ -21,11 +21,11 @@ class Footer extends React.Component {
             <div className="columns is-space-between is-desktop">
               <div className="column is-half-desktop">
                 <p className="subtitle is-size-4">
-					        I'm from Dunedin, New Zealand and I happily work
+					        I'm from Dunedin, New Zealand, presently working and sweating in Canguu Bali. I happily work
                   with clients globally.
                 </p>
                 <p className="subtitle is-size-4">
-                  I'm fizzed up about React, static site generation and headless
+                  I'm fizzed up about React, the  static site revolution and headless
                   WordPress. If you're after state of the art performance get in
                   touch.
                 </p>
@@ -79,10 +79,8 @@ class Footer extends React.Component {
                             Help With?
                           </option>
                           <option value="wordpress">WordPress</option>
-                          <option value="woocommerce">WooCommerce</option>
                           <option value="gatsbyJs/Hugo">GatsbyJS / Hugo</option>
                           <option value="react">React</option>
-                          <option value="where-notebooks">Where are the notebooks?!</option>
                           <option value="random">Something else</option>
                         </select>
                       </div>
