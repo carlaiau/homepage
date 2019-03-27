@@ -1,6 +1,6 @@
 module.exports = {
 	siteMetadata: {
-		title: 'NZ WordPress Developer – Carl Aiau',
+		title: 'Carl Aiau: WordPress Developer NZ',
 		author: 'Carl Aiau',
 		description: 'I build fast websites using modern technologies. Based in Dunedin, working globally.'
 	},
