@@ -1,6 +1,5 @@
 import React from "react";
 import Particles from "react-particles-js";
-import { Link } from "gatsby";
 import "../components/style.scss";
 const ThanksPage = () => (
   <div>
@@ -43,9 +42,6 @@ const ThanksPage = () => (
           <h1 className="is-uppercase is-size-1">Thanks</h1>
           <hr />
           <p className="subtitle is-size-2">I will be in touch shortly.</p>
-          <p className="subtitle is-size-2">
-            Back <Link to="/">Home</Link>
-          </p>
         </div>
       </div>
     </section>
