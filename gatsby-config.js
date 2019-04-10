@@ -1,8 +1,8 @@
 module.exports = {
 	siteMetadata: {
-		title: 'Carl Aiau: WordPress Developer NZ',
+		title: 'New Zealand WordPress Developer – Carl Aiau',
 		author: 'Carl Aiau',
-		description: 'I build fast websites using modern technologies. Based in Dunedin, working globally.'
+		description: 'I build fast websites using modern technologies. I Love React, GatsbyJS, Beans and Sage. Based in Dunedin, working globally.'
 	},
 	plugins: [
 		'gatsby-plugin-react-helmet',
