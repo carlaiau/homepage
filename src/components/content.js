@@ -241,7 +241,8 @@ const Content = () => (
                 </a>
                 <ReactTooltip id='age' place="bottom" type="light" className="carl_tool">
                   <p className="subtitle is-size-5">
-                    Wordpress with Beans and Carbon Fields, multiple custom post types with modular block control with various post type to post type associations providing intra-site user flow.
+                    Wordpress with Beans and Carbon Fields, modular block control, associations between post types creating intra-site user flow. 
+                    Admin controllable interactive graphic built with good ol' jQuery.
                   </p>
                 </ReactTooltip>
                 .
