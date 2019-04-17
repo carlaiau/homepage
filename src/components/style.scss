@@ -202,25 +202,6 @@ p{
 				}
 			}
 		}
-		.__react_component_tooltip{
-			background: $teal;
-			opacity: 1;
-			box-shadow: 0px 0px 5px rgba(0,0,0,0.2);
-			max-width: 500px;
-			@media screen  and (max-width: 480px){
-				max-width: 300px;
-				.is-size-5{
-					font-size: 0.8em;
-				}
-			}
-			&:after{
-				border-top-color: $teal;
-			}
-			.is-size-5{
-				color: #fff;
-			}
-			
-		}
 	}
 	&.coffee{
 		background: radial-gradient(circle at 250% 50%, $brown 0%, #fff 100%);
@@ -287,4 +268,24 @@ p{
 			border-bottom: 1px solid #fff;
 		}	
 	}
+}
+
+.__react_component_tooltip{
+	background: $teal;
+	opacity: 1;
+	box-shadow: 0px 0px 5px rgba(0,0,0,0.2);
+	max-width: 500px;
+	@media screen  and (max-width: 480px){
+		max-width: 300px;
+		.is-size-5{
+			font-size: 0.8em;
+		}
+	}
+	&:after{
+		border-top-color: $teal;
+	}
+	.is-size-5{
+		color: #fff;
+	}
+	
 }
