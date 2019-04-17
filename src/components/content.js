@@ -163,9 +163,17 @@ const Content = () => (
                   href="https://www.hempme.com.au/"
                   target="_blank"
                   rel="noopener noreferrer"
+                  data-tip data-for="hem"
+                  class="has-tip"
                 >
                   Hemp Me
-                </a>{" "},{" "}
+                </a>
+                <ReactTooltip id='hem' place="bottom" type="light">
+                  <p className="subtitle is-size-5">
+                    WooCommerce store powered by Beans and Carbon Fields. Simple Administration of sophisticated page structures using Modular repeatable blocks.
+                  </p>
+                </ReactTooltip>
+                ,{" "}
                 <a
                   href="https://ageingwellchallenge.co.nz"
                   target="_blank"

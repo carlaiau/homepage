@@ -6,7 +6,6 @@ import {
   FaRegSmileWink,
   FaSmile,
   FaDollarSign,
-  FaRocket
 } from "react-icons/fa";
 import { IconContext } from "react-icons";
 
