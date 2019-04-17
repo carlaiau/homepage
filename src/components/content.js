@@ -48,13 +48,11 @@ const Content = () => (
                 </a>{" "}
                 scores.</p>
                 <p className="subtitle is-size-4">
-                All of my traditional WordPress projects are built with Beans and Carbon Fields.
-                I have a distaste for large plugin stacks and visual builder bloat. I host on AWS using Bitnami AMI's</p>
+                All of my traditional WordPress projects are built with <a href="https://getbeans.io" target="_blank" rel="noopener noreferrer">Beans</a> and <a href="https://carbonfields.net" target="_blank" rel="noopener noreferrer">Carbon Fields</a>.
+                I have a distaste for large plugin stacks and visual builder bloat. I host on AWS in Sydneeeey</p>
               
                 <p className="subtitle is-size-4">
-                  Recent work, Hover for details, click to visit
-                </p>
-                <p className="subtitle is-size-4">
+                  Recent work, Hover for deets, click to visit, {" "}
                 <a
                   href="https://www.hotyogadunedin.com"
                   target="_blank"
