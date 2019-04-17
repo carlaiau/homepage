@@ -49,10 +49,10 @@ const Content = () => (
                 scores.</p>
                 <p className="subtitle is-size-4">
                 All of my traditional WordPress projects are built with Beans and Carbon Fields.
-                I have a distaste for large plugin stacks and visual builder bloat.</p>
+                I have a distaste for large plugin stacks and visual builder bloat. I host on AWS using Bitnami AMI's</p>
               
                 <p className="subtitle is-size-4">
-                  Recent work, Hover for deets:
+                  Recent work, Hover for details, click to visit
                 </p>
                 <p className="subtitle is-size-4">
                 <a
@@ -67,8 +67,8 @@ const Content = () => (
                 
                 <ReactTooltip id='hyd' place="bottom" type="light"className="carl_tool">
                   <p className="subtitle is-size-5">
-                    Wordpress with three Custom post types. Custom plugin that cron updates timetable over Mindbody's prehistoric API
-                    and creates a snazy interactive interface. Loads 10 times faster than our benchmark competitor site.
+                    Wordpress with Beans and Carbon Fields. Custom plugin that cron updates timetable over Mindbody's prehistoric API
+                    and creates a snazy interactive interface. Loads 10 times faster than the competitor's site we were using as a benchmark.
                     </p>
                 </ReactTooltip>
                 ,
@@ -84,9 +84,9 @@ const Content = () => (
                 </a>
                 <ReactTooltip id='tgp' place="bottom" type="light" className="carl_tool">
                   <p className="subtitle is-size-5">
-                  This is a MVP. React single page app built on top of Node microservice. 
+                  This is a MVP. React single page app built on top of node microservice. 
                   Data provided by charitiy services API. 
-                  Extensive Event Tracking to determine what to develop next.</p>
+                  Extensive event tracking to determine what to develop next.</p>
                 </ReactTooltip>
                 ,{" "}
                 <a
@@ -116,7 +116,7 @@ const Content = () => (
                 </a>
                 <ReactTooltip id='tra' place="bottom" type="light" className="carl_tool">
                   <p className="subtitle is-size-5">
-                    I am the technical Co-Founder. Designed and Developed in Hugo using UIKit 3. Hosted on Netlify, allowing for build previews via pull requests and A/B testing from branches.
+                    I am the technical Co-Founder. Designed and developed in Hugo using UIKit 3. Hosted on Netlify, allowing for build previews via pull requests and A/B testing from branches.
                   </p>
                 </ReactTooltip>
                 ,{" "}
@@ -132,7 +132,7 @@ const Content = () => (
                 <ReactTooltip id='sce' place="bottom" type="light" className="carl_tool">
                   <p className="subtitle is-size-5">
                     WooCommerce store using Chargebee for subscription management. Users can manage their queue of upcoming products. 
-                    Migrated client from unscalable WooCommerce Subscription theme and plugin stack while preserving paying clients.
+                    Migrated client from unscalable WooCommerce Subscription theme and plugin stack while preserving paying users sbuscriptions.
                   </p>
                 </ReactTooltip>
                 ,{" "}
@@ -164,7 +164,7 @@ const Content = () => (
                 </a>
                 <ReactTooltip id='lik' place="bottom" type="light" className="carl_tool">
                   <p className="subtitle is-size-5">
-                  I am the technical Co-Founder. SAAS based on a WP Multi site. Chargebee Admin subscription management. Paying Admins can create subsites within the network, and invite users to their sub networks.
+                  I am the technical Co-Founder. SAAS based on a WP Multi site. Chargebee admin subscription management. Paying admins can create sub sites within the network, and invite users to their sites.
                   </p>
                 </ReactTooltip>
                 ,{" "}
@@ -179,8 +179,8 @@ const Content = () => (
                 </a>
                 <ReactTooltip id='all' place="bottom" type="light" className="carl_tool">
                   <p className="subtitle is-size-5">
-                    GatsbyJS vanilla React and Bulma hosted on Netlify. Multiple Video Headers, Gatsby Image Lazy loading. 
-                    Instagram Feed stored statically, with each new post triggered a static site rebuild. This is the Future.
+                    GatsbyJS vanilla with Bulma hosted on Netlify. Multiple video headers, Gatsby Image lazy loading. 
+                    Instagram feed stored statically, with each new post triggered a static site rebuild. This is the Future.
                   </p>
                 </ReactTooltip>
                 ,{" "}
@@ -211,7 +211,7 @@ const Content = () => (
                 </a>
                 <ReactTooltip id='gen' place="bottom" type="light" className="carl_tool">
                   <p className="subtitle is-size-5">
-                    WooCommerce subscriptions store powered by Beans and Carbon Fields. Simple Administration, Dynamic theming possible on a per-page basis. 
+                    WooCommerce subscriptions store powered by Beans and Carbon Fields. Simple administration with dynamic theming possible on a per-page basis. 
                   </p>
                 </ReactTooltip>
                 ,{" "}
@@ -226,7 +226,7 @@ const Content = () => (
                 </a>
                 <ReactTooltip id='hem' place="bottom" type="light" className="carl_tool">
                   <p className="subtitle is-size-5">
-                    WooCommerce store powered by Beans and Carbon Fields. Simple Administration of sophisticated page structures using Modular repeatable blocks.
+                    WooCommerce store powered by Beans and Carbon Fields. Simple administration of sophisticated page structures using modular repeatable blocks.
                   </p>
                 </ReactTooltip>
                 ,{" "}
