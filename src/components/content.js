@@ -52,7 +52,7 @@ const Content = () => (
                 I have a distaste for large plugin stacks and visual builder bloat. I host on AWS in Sydneeeey</p>
               
                 <p className="subtitle is-size-4">
-                  Recent work, Hover for deets, click to visit, {" "}
+                  Recent work, hover for deets, click to visit, {" "}
                 <a
                   href="https://www.hotyogadunedin.com"
                   target="_blank"
