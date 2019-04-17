@@ -2,16 +2,33 @@ import React from "react";
 import AnchorLink from "react-anchor-link-smooth-scroll";
 import ReactTooltip from 'react-tooltip'
 import { FaChevronDown } from "react-icons/fa";
+
 const gross_style_string = `
-  .carl_tool{ 
-		background: #306E73 !important;
-		opacity: 1;
+  .__react_component_tooltip.carl_tool{ 
+    background: #306E73;
+    opacity: 1;
+    box-shadow: 0px 0px 5px rgba(0,0,0,0.2);
+    max-width: 500px;
+  }
+  .__react_component_tooltip.carl_tool&:after{
+    border-top-color: #306E73;
+  }
+  .__react_component_tooltip.carl_tool .is-size-5{
+    color: #fff;
+  }
+  @media screen  and (max-width: 480px){
+    .__react_component_tooltip.carl_tool{ 
+      max-width: 80vw;
+    }
+    .__react_component_tooltip.carl_tool .is-size-5{
+      font-size: 0.8em;
+    }
   }
 `
 
 const Content = () => (
   <div>
-    
+    <style dangerouslySetInnerHTML={{__html: gross_style_string }} />
     <section className="hero secondary is-fullheight" id="section-1">
       <div className="hero-body">
         <div className="container">
@@ -47,9 +64,8 @@ const Content = () => (
                 >
                   Hot Yoga Dunedin
                 </a>
-                <style dangerouslySetInnerHTML={{__html: gross_style_string }} />
-                <ReactTooltip id='hyd' place="bottom" type="light"className="carl_tool">
                 
+                <ReactTooltip id='hyd' place="bottom" type="light"className="carl_tool">
                   <p className="subtitle is-size-5">
                     Wordpress with three Custom post types. Custom plugin that cron updates timetable over Mindbody's prehistoric API
                     and creates a snazy interactive interface. Loads 10 times faster than our benchmark competitor site.
@@ -82,7 +98,7 @@ const Content = () => (
                 >
                   Rize
                 </a>
-                <ReactTooltip id='riz' place="bottom" type="light" className="carl">
+                <ReactTooltip id='riz' place="bottom" type="light" className="carl_tool">
                   <p className="subtitle is-size-5">
                     Marketplace built ontop of WooCommerce and Stripe Connect. 
                     Multiple bespoke extensions of core WC Vendors Pro functionality, including size guides, country dependent bundle and free shipping specifications and vendor initiated refunds. 
@@ -98,7 +114,7 @@ const Content = () => (
                 >
                   Travel Influencers
                 </a>
-                <ReactTooltip id='tra' place="bottom" type="light" className="carl">
+                <ReactTooltip id='tra' place="bottom" type="light" className="carl_tool">
                   <p className="subtitle is-size-5">
                     I am the technical Co-Founder. Designed and Developed in Hugo using UIKit 3. Hosted on Netlify, allowing for build previews via pull requests and A/B testing from branches.
                   </p>
@@ -113,7 +129,7 @@ const Content = () => (
                 >
                   Scent Republic
                 </a>
-                <ReactTooltip id='sce' place="bottom" type="light">
+                <ReactTooltip id='sce' place="bottom" type="light" className="carl_tool">
                   <p className="subtitle is-size-5">
                     WooCommerce store using Chargebee for subscription management. Users can manage their queue of upcoming products. 
                     Migrated client from unscalable WooCommerce Subscription theme and plugin stack while preserving paying clients.
@@ -129,7 +145,7 @@ const Content = () => (
                 >
                   Southern Cross Flutes
                 </a>
-                <ReactTooltip id='sou' place="bottom" type="light">
+                <ReactTooltip id='sou' place="bottom" type="light" className="carl_tool">
                   <p className="subtitle is-size-5">
                     WooCommerce multi FX store. I migrated a page builder based theme and plugin stack into Beans and Carbon Fields. Reducing resource count by 90%, 
                     while providing easier administration and avoiding double entry of data.
@@ -146,7 +162,7 @@ const Content = () => (
                 >
                   Likeabook
                 </a>
-                <ReactTooltip id='lik' place="bottom" type="light">
+                <ReactTooltip id='lik' place="bottom" type="light" className="carl_tool">
                   <p className="subtitle is-size-5">
                   I am the technical Co-Founder. SAAS based on a WP Multi site. Chargebee Admin subscription management. Paying Admins can create subsites within the network, and invite users to their sub networks.
                   </p>
@@ -161,7 +177,7 @@ const Content = () => (
                 >
                   Allcor
                 </a>
-                <ReactTooltip id='all' place="bottom" type="light">
+                <ReactTooltip id='all' place="bottom" type="light" className="carl_tool">
                   <p className="subtitle is-size-5">
                     GatsbyJS vanilla React and Bulma hosted on Netlify. Multiple Video Headers, Gatsby Image Lazy loading. 
                     Instagram Feed stored statically, with each new post triggered a static site rebuild. This is the Future.
@@ -177,7 +193,7 @@ const Content = () => (
                 >
                   Ecotricity
                 </a>
-                <ReactTooltip id='eco' place="bottom" type="light">
+                <ReactTooltip id='eco' place="bottom" type="light" className="carl_tool">
                   <p className="subtitle is-size-5">
                     Wordpress with Beans. Reduced a gargantuan plugin stack to less than 5, reduced resource count by 80%+
                     Replaced page builder logic with page template scoped Carbon Fields and UIKit frontend.
@@ -193,7 +209,7 @@ const Content = () => (
                 >
                   Generosity Coffee
                 </a>
-                <ReactTooltip id='gen' place="bottom" type="light">
+                <ReactTooltip id='gen' place="bottom" type="light" className="carl_tool">
                   <p className="subtitle is-size-5">
                     WooCommerce subscriptions store powered by Beans and Carbon Fields. Simple Administration, Dynamic theming possible on a per-page basis. 
                   </p>
@@ -208,7 +224,7 @@ const Content = () => (
                 >
                   Hemp Me
                 </a>
-                <ReactTooltip id='hem' place="bottom" type="light">
+                <ReactTooltip id='hem' place="bottom" type="light" className="carl_tool">
                   <p className="subtitle is-size-5">
                     WooCommerce store powered by Beans and Carbon Fields. Simple Administration of sophisticated page structures using Modular repeatable blocks.
                   </p>
@@ -218,9 +234,17 @@ const Content = () => (
                   href="https://ageingwellchallenge.co.nz"
                   target="_blank"
                   rel="noopener noreferrer"
+                  data-tip data-for="age"
+                  class="has-tip"
                 >
                   Ageing Well National Science Challenge
-                </a>.
+                </a>
+                <ReactTooltip id='age' place="bottom" type="light" className="carl_tool">
+                  <p className="subtitle is-size-5">
+                    Wordpress with Beans and Carbon Fields, multiple custom post types with modular block control with various post type to post type associations providing intra-site user flow.
+                  </p>
+                </ReactTooltip>
+                .
                 
               </p>
             </div>
