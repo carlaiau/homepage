@@ -1,8 +1,10 @@
 import React from "react";
 import AnchorLink from "react-anchor-link-smooth-scroll";
+import ReactTooltip from 'react-tooltip'
 import { FaChevronDown } from "react-icons/fa";
 const Content = () => (
   <div>
+    
     <section className="hero secondary is-fullheight" id="section-1">
       <div className="hero-body">
         <div className="container">
@@ -11,7 +13,7 @@ const Content = () => (
               <h1 className="is-size-1">Obsessed with code</h1>
               <hr />
               <p className="subtitle is-size-4">
-                I have been a freelance developer since 2012, starting with PHP, and now fixated on modern Javascript.
+                I have been a freelance developer since 2012, starting with PHP, and now fixated on modern Javascript and Golang.
                 I'm excited about static site generators and the rise of the headless CMS. Using GatsbyJS I want to build my clients the fastest websites in the world. I love clean code and high{" "}
                 <a
                   href="https://developers.google.com/speed/pagespeed/insights/?url=https%3A%2F%2Fwww.carlaiau.com%2F&tab=desktop"
@@ -23,72 +25,139 @@ const Content = () => (
                 scores.</p>
                 <p className="subtitle is-size-4">
                 All of my traditional WordPress projects are built with Beans and Carbon Fields.
-                Apart from WooCommerce and a few extensions I have a distaste for plugins.</p>
-              <p className="subtitle is-size-4">
-                I am the technical co-founder of{" "}
+                I have a distaste for large plugin stacks and visual builder bloat.</p>
+              
+                <p className="subtitle is-size-4">
+                  Recent work, Hover for deets:
+                </p>
+                <p className="subtitle is-size-4">
                 <a
-                  href="https://likeabook.io"
+                  href="https://www.hotyogadunedin.com"
                   target="_blank"
                   rel="noopener noreferrer"
+                  data-tip data-for='hyd'
+                  class="has-tip"
                 >
-                  Likeabook
-                </a>{", "}
-                {" "}
-                <a
-                  href="https://octagonal.io"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Octagonal
-                </a>{", "}
-                and{" "}
-                <a
-                  href="https://travelinfluencers.co"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Travel Influencers
-                </a>.
-                I have recently developed{" "}
-                <a
-                  href="https://allcor.co.nz"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Allcor
+                  Hot Yoga Dunedin
                 </a>
-                ,{" "}
+                <ReactTooltip id='hyd' place="bottom" type="light">
+                  <p className="subtitle is-size-5">
+                    Wordpress with three Custom post types. Custom plugin that cron updates timetable over Mindbody's prehistoric API
+                    and creates a snazy interactive interface. Loads 10 times faster than our benchmark competitor site.
+                    </p>
+                </ReactTooltip>
+                ,
+                {" "}
                 <a
                   href="http://thegoodportal.nz"
                   target="_blank"
                   rel="noopener noreferrer"
+                  data-tip data-for='tgp'
+                  class="has-tip"
                 >
                   The Good Portal
                 </a>
+                <ReactTooltip id='tgp' place="bottom" type="light">
+                  <p className="subtitle is-size-5">
+                  This is a MVP. React single page app built on top of Node microservice. 
+                  Data provided by charitiy services API. 
+                  Extensive Event Tracking to determine what to develop next.</p>
+                </ReactTooltip>
+                ,{" "}
+                <a
+                  href="https://rize.fashion"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  data-tip data-for="riz"
+                  class="has-tip"
+                >
+                  Rize
+                </a>
+                <ReactTooltip id='riz' place="bottom" type="light">
+                  <p className="subtitle is-size-5">
+                    Marketplace built ontop of WooCommerce and Stripe Connect. 
+                    Multiple bespoke extensions of core WC Vendors Pro functionality, including size guides, country dependent bundle and free shipping specifications and vendor initiated refunds. 
+                  </p>
+                </ReactTooltip>
+                ,{" "}
+                <a
+                  href="https://scentrepublic.co.nz"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  data-tip data-for="sce"
+                  class="has-tip"
+                >
+                  Scent Republic
+                </a>
+                <ReactTooltip id='sce' place="bottom" type="light">
+                  <p className="subtitle is-size-5">
+                    WooCommerce store using Chargebee for subscription management. Users can manage their queue of upcoming products. 
+                    Migrated client from unscalable WooCommerce Subscription theme and plugin stack while preserving paying clients.
+                  </p>
+                </ReactTooltip>
                 ,{" "}
                 <a
                   href="https://www.southerncrossflutes.com/"
                   target="_blank"
                   rel="noopener noreferrer"
+                  data-tip data-for="sou"
+                  class="has-tip"
                 >
                   Southern Cross Flutes
                 </a>
+                <ReactTooltip id='sou' place="bottom" type="light">
+                  <p className="subtitle is-size-5">
+                    WooCommerce multi FX store. I migrated a page builder based theme and plugin stack into Beans and Carbon Fields. Reducing resource count by 90%, 
+                    while providing easier administration and avoiding double entry of data.
+                  </p>
+                </ReactTooltip>
+                ,{" "}
+                <a
+                  href="https://allcor.co.nz"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  data-tip data-for="all"
+                  class="has-tip"
+                >
+                  Allcor
+                </a>
+                <ReactTooltip id='all' place="bottom" type="light">
+                  <p className="subtitle is-size-5">
+                    GatsbyJS vanilla React and Bulma hosted on Netlify. Multiple Video Headers, Gatsby Image Lazy loading. 
+                    Instagram Feed stored statically, with each new post triggered a static site rebuild. This is the Future.
+                  </p>
+                </ReactTooltip>
                 ,{" "}
                 <a
                   href="https://ecotricity.co.nz/"
                   target="_blank"
                   rel="noopener noreferrer"
+                  data-tip data-for="eco"
+                  class="has-tip"
                 >
                   Ecotricity
                 </a>
+                <ReactTooltip id='eco' place="bottom" type="light">
+                  <p className="subtitle is-size-5">
+                    Wordpress with Beans. Reduced a gargantuan plugin stack to less than 5, reduced resource count by 80%+
+                    Replaced page builder logic with page template scoped Carbon Fields and UIKit frontend.
+                  </p>
+                </ReactTooltip>
                 ,{" "}
                 <a
-                  href="http://generositycoffee.org.nz/"
+                  href="https://generositycoffee.org.nz/"
                   target="_blank"
                   rel="noopener noreferrer"
+                  data-tip data-for="gen"
+                  class="has-tip"
                 >
                   Generosity Coffee
                 </a>
+                <ReactTooltip id='gen' place="bottom" type="light">
+                  <p className="subtitle is-size-5">
+                    WooCommerce subscriptions store powered by Beans and Carbon Fields. Simple Administration, Dynamic theming possible on a per-page basis. 
+                  </p>
+                </ReactTooltip>
                 ,{" "}
                 <a
                   href="https://www.hempme.com.au/"
@@ -96,16 +165,21 @@ const Content = () => (
                   rel="noopener noreferrer"
                 >
                   Hemp Me
-                </a>{" "}
-                and the{" "}
+                </a>{" "},{" "}
                 <a
                   href="https://ageingwellchallenge.co.nz"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
                   Ageing Well National Science Challenge
-                </a>
-                .
+                </a>,{" "}
+                <a
+                  href="https://travelinfluencers.co"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Travel Influencers
+                </a>.
               </p>
             </div>
           </div>
