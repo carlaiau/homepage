@@ -124,9 +124,9 @@ p{
 	color: $teal;
 	transition: 0.5s;
 	&:hover{
-		color: $orange;
-		
+		color: $orange;	
 	}
+	z-index: 9999;
 }
 
 
