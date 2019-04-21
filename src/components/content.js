@@ -58,7 +58,7 @@ const Content = () => (
                 scores.</p>
                 <p className="subtitle is-size-4">
                 All of my traditional WordPress projects are built with <a href="https://getbeans.io" target="_blank" rel="noopener noreferrer">Beans</a> and <a href="https://carbonfields.net" target="_blank" rel="noopener noreferrer">Carbon Fields</a>.
-                I have a distaste for large plugin stacks and visual builder bloat. I host on AWS in Sydneeeey</p>
+                I have a distaste for large plugin stacks and visual builder bloat. I host on AWS, Vultr and Digital Ocean.</p>
               
                 <p className="subtitle is-size-4">
                   Recent work, hover for deets, click to visit, {" "}
@@ -75,7 +75,7 @@ const Content = () => (
                 <ReactTooltip id='hyd' type="light" className="carl_tool">
                   <p className="subtitle is-size-5">
                     Wordpress with Beans and Carbon Fields. Custom plugin that cron updates timetable over Mindbody's prehistoric API
-                    and creates a snazy interactive interface. Loads 10 times faster than the competitor's site we were using as a benchmark.
+                    and creates an interactive interface. Loads 10 times faster than the competitor's site we were using as a benchmark.
                     </p>
                 </ReactTooltip>
                 ,
