@@ -57,11 +57,11 @@ const Content = () => (
                 </a>{" "}
                 scores.</p>
                 <p className="subtitle is-size-4">
-                All of my traditional WordPress projects are built with <a href="https://getbeans.io" target="_blank" rel="noopener noreferrer">Beans</a> and <a href="https://carbonfields.net" target="_blank" rel="noopener noreferrer">Carbon Fields</a>.
-                I have a distaste for large plugin stacks and visual builder bloat. I host on AWS, Vultr and Digital Ocean.</p>
+                My WordPress projects are built with <a href="https://getbeans.io" target="_blank" rel="noopener noreferrer">Beans</a> and <a href="https://carbonfields.net" target="_blank" rel="noopener noreferrer">Carbon Fields</a>.
+                I have a distaste for large plugin stacks and visual builder bloat. Here is some recent work, hover for deets, click to visit:</p>
               
                 <p className="subtitle is-size-4">
-                  Recent work, hover for deets, click to visit, {" "}
+                  
                 <a
                   href="https://www.hotyogadunedin.com"
                   target="_blank"
@@ -271,13 +271,15 @@ const Content = () => (
               <h2 className="is-size-1">Computer science</h2>
               <hr />
               <p className="subtitle is-size-4">
-                In 2018 I completed a DipGrad in Computer Science at Otago University, and am partway through my Masters in Information Retrieval. 
+                In 2018 I completed a DipGrad in Computer Science at Otago University, and am partway through my Masters. 
+                My current extracurricular learning activites are FAST.AI's Practical Deep Learning course and the OSCP Penetration Testing Certification.
+                
               </p>
               <p className="subtitle is-size-4">
-                Freelancing before my academic studies has given me the unique
-                combination of diverse project experience and a thorough understanding of COSC fundamentals.                 
-                I can confidently execute across a wide calibre of specifications and business goals.
+                Rather than purusing a highly specialised path I believe a wide understanding across various aspects of computer science makes me a unique and agile asset. 
+                Unlike a bootcamper, I know there are many solutions to a problem and I view efficiency as it relates to business goals.
               </p>
+              
             </div>
           </div>
         </div>

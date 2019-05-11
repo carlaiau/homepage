@@ -20,16 +20,16 @@ class Footer extends React.Component {
             <div className="columns is-space-between is-desktop">
               <div className="column is-half-desktop">
                 <p className="subtitle is-size-4">
-					        I'm from Dunedin, New Zealand, presently working and sweating in Canguu Bali. I happily work
+					        I'm currently based in Dunedin, New Zealand and I happily work
                   with clients globally.
                 </p>
                 <p className="subtitle is-size-4">
-                  I'm fizzed up about React, the  static site revolution and headless
+                  I'm fizzed up about React, the static site revolution and headless
                   WordPress. If you're after state of the art performance get in
-                  touch.
+                  touch. 
                 </p>
                 <p className="subtitle is-size-4">
-                  Away from my MacBook  I love drinking copious amounts of coffee, pulling
+                  Away from my MacBook I love drinking copious amounts of coffee, pulling
                   deadlifts and refreshing Elon's twitter feed.
                 </p>
               </div>
@@ -78,8 +78,9 @@ class Footer extends React.Component {
                             Help With?
                           </option>
                           <option value="wordpress">WordPress</option>
-                          <option value="gatsbyJs/Hugo">GatsbyJS / Hugo</option>
+                          <option value="gatsbyJs/Hugo">Static Generation</option>
                           <option value="react">React</option>
+                          <option value="AI">AI</option>
                           <option value="random">Something else</option>
                         </select>
                       </div>
