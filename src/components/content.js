@@ -272,7 +272,7 @@ const Content = () => (
               <hr />
               <p className="subtitle is-size-4">
                 In 2018 I completed a DipGrad in Computer Science at Otago University, and am partway through my Masters. 
-                My current extracurricular learning activites are FAST.AI's Practical Deep Learning course and the OSCP Penetration Testing Certification.
+                I am supplementing this with top-down learning via <a href="https://course.fast.ai" target="_blank" rel="noopener" style={{color: "#fff", borderBottom: "1px solid #fff"}}>fast.ai's</a> practical deep learning for coders course. Check back soon for blog posts on my progress.
                 
               </p>
               <p className="subtitle is-size-4">
