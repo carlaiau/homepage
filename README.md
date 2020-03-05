@@ -1,12 +1,9 @@
-# Gatsby Bulma Quickstart
+# My Home page
 
+Built from Gatsby + Bulma starter. Hosted on netlify
 > A Quick Way to bootstrap your next Gatsby + Bulma site.
 
 ![ss](https://i.imgur.com/Vz81GEl.png)
-
-## Demo 💯
-
-- [Demo Link](https://tender-raman-99e09b.netlify.com/)
 
 ## Features 🚀
 
