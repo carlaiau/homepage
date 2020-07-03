@@ -20,17 +20,15 @@ class Footer extends React.Component {
             <div className="columns is-space-between is-desktop">
               <div className="column is-half-desktop">
                 <p className="subtitle is-size-4">
-					        I'm currently based in Dunedin, New Zealand and I happily work
-                  with clients globally.
+                  I'm currently based in Dunedin, New Zealand and I happily work
+                  with clients globally through my agency <a href="https://www.digitalmates.co.nz/">Digital Mates</a>.
                 </p>
                 <p className="subtitle is-size-4">
-                  I'm fizzed up about React, the static site revolution and headless
-                  WordPress. If you're after state of the art performance get in
-                  touch. 
+                  Away from my MacBook I love drinking coffee, pulling
+                  deadlifts, running slowly and trying to make my daughter giggle.
                 </p>
                 <p className="subtitle is-size-4">
-                  Away from my MacBook I love drinking copious amounts of coffee, pulling
-                  deadlifts and refreshing Elon's twitter feed.
+                  I don't fix broken WordPress sites, but I do work with new ones.
                 </p>
               </div>
               <div className="column is-one-third-desktop">
@@ -96,10 +94,9 @@ class Footer extends React.Component {
                           <option value="" disabled selected>
                             Budget
                           </option>
-                          <option value="$1000">$1,000 or below</option>
                           <option value="$5000">$5,000</option>
                           <option value="$10000">$10,000</option>
-                          <option value="$25,000+">$25,000 and above</option> 
+                          <option value="$50,000+">$50,000 and above</option>
                         </select>
                       </div>
                       <span className="icon is-large is-left">

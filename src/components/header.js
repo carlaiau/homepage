@@ -44,7 +44,7 @@ const Header = ({ siteTitle }) => (
           <h1 className="is-uppercase is-size-1">Carl Aiau</h1>
           <hr />
           <p className="subtitle is-size-2">
-            WordPress, Static Sites, Javascript and Computer Science.
+            Engineer and Computer Scientist.
           </p>
         </div>
         <AnchorLink className="more" href="#section-1">
