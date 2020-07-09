@@ -1,8 +1,8 @@
 module.exports = {
 	siteMetadata: {
-		title: 'New Zealand WordPress and Static Site Developer - Carl Aiau',
+		title: 'New Zealand GatsbyJS Developer - Carl Aiau',
 		author: 'Carl Aiau',
-		description: 'I build fast websites that rank better than your competition and make you more money. I love WordPress, static site generation, and computer science.'
+		description: 'I build fast websites that rank better than your competition and make you more money. I love Javascript, and computer science.'
 	},
 	plugins: [
 		'gatsby-plugin-react-helmet',
@@ -23,7 +23,7 @@ module.exports = {
 				anonymize: true
 			}
 		},
-		{ 
+		{
 			resolve: `gatsby-plugin-purgecss`,
 			options: {
 				printRejected: true, // Print removed selectors and processed file names
@@ -33,13 +33,13 @@ module.exports = {
 		{
 			resolve: `gatsby-source-filesystem`,
 			options: {
-			  path: `${__dirname}/src/posts`,
-			  name: "markdown-pages",
+				path: `${__dirname}/src/posts`,
+				name: "markdown-pages",
 			},
-		  },
-		  `gatsby-transformer-remark`
-		
-		
-		
+		},
+		`gatsby-transformer-remark`
+
+
+
 	]
 };
