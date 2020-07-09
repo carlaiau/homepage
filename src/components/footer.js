@@ -20,16 +20,17 @@ class Footer extends React.Component {
             <div className="columns is-space-between is-desktop">
               <div className="column is-half-desktop">
                 <p className="subtitle is-size-4">
-                  I'm currently based in Dunedin, New Zealand and I happily work
-                  with clients globally through my agency <a href="https://www.digitalmates.co.nz/">Digital Mates</a>.
+                  I'm currently based in Dunedin, New Zealand.
+                  I happily work with clients globally through <a href="https://www.digitalmates.co.nz/">Digital Mates</a>.
                 </p>
                 <p className="subtitle is-size-4">
-                  Away from my MacBook I love drinking coffee, pulling
-                  deadlifts, running slowly and trying to make my daughter giggle.
+                  Aside from directly engineering I also consult and offer technical guidance.
+                  It is important to ensure everyone involed with a project is pointing in the same direction especially if there are multiple external parties involved.
                 </p>
                 <p className="subtitle is-size-4">
-                  I don't fix broken WordPress sites, but I do work with new ones.
+                  I don't fix broken WordPress sites but I work on new ones.
                 </p>
+
               </div>
               <div className="column is-one-third-desktop">
                 <form
@@ -76,9 +77,9 @@ class Footer extends React.Component {
                             Help With?
                           </option>
                           <option value="wordpress">WordPress</option>
-                          <option value="gatsbyJs/Hugo">Static Generation</option>
+                          <option value="gatsbyJs">Static Generation</option>
                           <option value="react">React</option>
-                          <option value="AI">AI</option>
+                          <option value="consulting">Technical Guidance</option>
                           <option value="random">Something else</option>
                         </select>
                       </div>

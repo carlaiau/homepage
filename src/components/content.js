@@ -11,16 +11,17 @@ const Content = () => (
         <div className="container">
           <div className="columns">
             <div className="column is-three-quarters-desktop">
-              <h1 className="is-size-1">Engineer</h1>
+              <h1 className="is-size-1">Engineering</h1>
               <hr />
               <p className=" is-size-4">
                 I have been a freelance developer since 2012, self taught starting with PHP, and now deep in the Javascript rabbit hole.
-                I have helped many people navigate the cowboy-full Wordpress landscape. These days I build mainly with
-                React, Vue, React Native, GatsbyJS and Strapi.
+                I have helped many people navigate the WordPress landscape. These days I mainly build with
+                React / Native / GatsbyJS, Vue, Node and Go.
               </p>
               <p className="is-size-4" style={{ paddingTop: '1em' }}>
-                In 2019 I worked as a software engineer at TheMarket using Vue, Express and ElasticSearch.
-                My tasks were frontend concentrated as well as  migrating a content platform from WordPress into a custom CMS.
+                During 2019 I worked as a software engineer at <a target="_blank"
+                  rel="noopener noreferrer" href="https://themarket.com/nz/">TheMarket</a> using Vue, Express and ElasticSearch.
+                My tasks were concentrated on the frontend and developing and migrating a content platform from WordPress.
               </p>
               <p className="is-size-4" style={{ paddingTop: '1em' }}>
                 In 2020 I co-founded the digital agency <a href="https://www.digitalmates.co.nz/">Digital Mates</a> with <a href="http://jasonsaunders.co.nz/">Jason Saunders</a>.
@@ -127,14 +128,16 @@ const Content = () => (
         <div className="container">
           <div className="columns">
             <div className="column is-three-quarters-desktop">
-              <h2 className="is-size-1">Computer Scientist</h2>
+              <h2 className="is-size-1">Computer Science</h2>
               <hr />
               <p className="subtitle is-size-4">
-                During 2018 - 2019 I completed a DipGrad and PGDipSci in Computer Science at Otago University while freelancing. My Post graduate specialisations were AI and Information Retrieval.
+                During 2018 - 2019 I completed a DipGrad and PGDipSci (with distinction) in Computer Science at Otago University.
+                My Post graduate specialisations were AI and Information Retrieval. Once upon a time I studied commerce majoring in Finance.
               </p>
               <p className="subtitle is-size-4">
-                I believe a wide understanding across various aspects of computer science makes me a unique and agile asset in business environments, especially in small teams.
-                There are many solutions to problems. I always strive to iterate quick, remove assumptons, and avoid drinking Kool-aid.
+                Understanding computer science and a little business makes me a unique and agile asset especially in small teams.
+                Problems have many solutions, I strive to iterate quick and remove assumptons.
+                I avoid tunnel vision and over-engineering AKA drinking Kool-aid.
               </p>
 
 

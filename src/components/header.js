@@ -43,9 +43,9 @@ const Header = ({ siteTitle }) => (
         <div className="container">
           <h1 className="is-uppercase is-size-1">Carl Aiau</h1>
           <hr />
-          <p className="subtitle is-size-2">
-            Engineer and Computer Scientist.
-          </p>
+          <h2 className="subtitle is-size-2" style={{ color: '#fff' }}>
+            Engineer and Computer Scientist
+          </h2>
         </div>
         <AnchorLink className="more" href="#section-1">
           <FaChevronDown />
