@@ -1,6 +1,6 @@
 module.exports = {
 	siteMetadata: {
-		title: 'New Zealand GatsbyJS Developer - Carl Aiau',
+		title: 'New Zealand Javascript and Golang Developer - Carl Aiau',
 		author: 'Carl Aiau',
 		description: 'I build fast websites that rank better than your competition and make you more money. I love Javascript, and computer science.'
 	},

@@ -16,7 +16,7 @@ const Content = () => (
               <p className=" is-size-4">
                 I have been a freelance developer since 2012, self taught starting with PHP, and now deep in the Javascript rabbit hole.
                 I have helped many people navigate the WordPress landscape. These days I mainly build with
-                React / Native / GatsbyJS, Vue, Node and Go.
+                React / Native, Vue, Node and Go.
               </p>
               <p className="is-size-4" style={{ paddingTop: '1em' }}>
                 During 2019 I worked as a software engineer at <a target="_blank"
@@ -25,95 +25,14 @@ const Content = () => (
               </p>
               <p className="is-size-4" style={{ paddingTop: '1em' }}>
                 In 2020 I co-founded the digital agency <a href="https://www.digitalmates.co.nz/">Digital Mates</a> with <a href="http://jasonsaunders.co.nz/">Jason Saunders</a>.
+                We work on a variety of architectues but are most excited about static sites using tools such as GatsbyJS and Astro.
               </p>
-              <p className="is-size-1" style={{ paddingTop: '1em' }}>
-                Recent Work
+              <p className="is-size-4" style={{ paddingTop: '1em' }}>
+                In 2020, I joined <a href="https://www.sunobi.com/">Sunobi</a> as the first employed engineer. Sunobi is a sales engagement platform for the residential solar market in the US.
+                My responsibilities span frontend, backend, and dev ops as the tech team expanded to 14.
+                The majority of my coding involves Golang, C# and React, both web and native.
+                Since joining Sunobi, we have expanded to facilitate transactions surpassing New Zealand’s total residential solar capacity of over 300MW.
               </p>
-              <hr />
-              <p className="is-size-4">
-                <a
-                  href="https://www.dpmgroup.nz"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  DPM Group
-                </a>
-                {" "}
-                <span className="is-size-3" style={{ position: 'relative', top: '4px', padding: '0 5px', opacity: 0.5 }}>|</span>
-                {" "}
-                <a
-                  href="https://www.hotyogadunedin.com"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Hot Yoga Dunedin
-                </a>
-                {" "}
-                <span className="is-size-3" style={{ position: 'relative', top: '4px', padding: '0 5px', opacity: 0.5 }}>|</span>
-                {" "}
-                <a
-                  href="https://rize.fashion"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Rize
-                </a>
-                {" "}
-                <span className="is-size-3" style={{ position: 'relative', top: '4px', padding: '0 5px', opacity: 0.5 }}>|</span>
-                {" "}
-                <a
-                  href="https://www.southerncrossflutes.com/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Southern Cross Flutes
-                </a>
-                {" "}
-                <span className="is-size-3" style={{ position: 'relative', top: '4px', padding: '0 5px', opacity: 0.5 }}>|</span>
-                {" "}
-                <a
-                  href="https://likeabook.io"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Likeabook
-                </a>
-                {" "}
-                <span className="is-size-3" style={{ position: 'relative', top: '4px', padding: '0 5px', opacity: 0.5 }}>|</span>
-                {" "}
-                <a
-                  href="https://ageingwellchallenge.co.nz"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Ageing Well National Science Challenge
-                </a>
-                {" "}
-                <span className="is-size-3" style={{ position: 'relative', top: '4px', padding: '0 5px', opacity: 0.5 }}>|</span>
-                {" "}
-                <a
-                  href="https://ecotricity.co.nz/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Ecotricity
-                </a>
-                {" "}
-                <span className="is-size-3" style={{ position: 'relative', top: '4px', padding: '0 5px', opacity: 0.5 }}>|</span>
-                {" "}
-                <a
-                  href="https://www.hempme.com.au/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Hemp Me
-                </a>
-
-
-              </p>
-
-
-
 
             </div>
           </div>

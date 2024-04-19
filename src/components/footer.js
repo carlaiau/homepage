@@ -27,9 +27,6 @@ class Footer extends React.Component {
                   Aside from directly engineering I also consult and offer technical guidance.
                   It is important to ensure everyone involed with a project is pointing in the same direction especially if there are multiple external parties involved.
                 </p>
-                <p className="subtitle is-size-4">
-                  I don't fix broken WordPress sites but I work on new ones.
-                </p>
 
               </div>
               <div className="column is-one-third-desktop">
