@@ -19,19 +19,23 @@ const Content = () => (
                 React / Native, Vue, Node and Go.
               </p>
               <p className="is-size-4" style={{ paddingTop: '1em' }}>
-                During 2019 I worked as a software engineer at <a target="_blank"
-                  rel="noopener noreferrer" href="https://themarket.com/nz/">TheMarket</a> using Vue, Express and ElasticSearch.
-                My tasks were concentrated on the frontend and developing and migrating a content platform from WordPress.
+                In 2019, I worked as a software engineer at <a target="_blank" rel="noopener noreferrer" href="https://themarket.com/nz/">TheMarket</a>, using Vue, Express and Elasticsearch. My role centred on frontend development, where I took ownership of a user-generated content platform and its ongoing improvements.
               </p>
               <p className="is-size-4" style={{ paddingTop: '1em' }}>
-                In 2020 I co-founded the digital agency <a href="https://www.digitalmates.co.nz/">Digital Mates</a> with <a href="http://jasonsaunders.co.nz/">Jason Saunders</a>.
-                We work on a variety of architectues but are most excited about static sites using tools such as GatsbyJS and Astro.
+                In 2020, I co-founded <a href="https://www.digitalmates.co.nz/">Digital Mates</a> with <a target="_blank" rel="noopener noreferrer" href="http://jasonsaunders.co.nz/">Jason Saunders</a>. We build across multiple architectures, with a strong focus on performant static sites using GatsbyJS and Astro and a mixture of Jamstack and headless technologies.
               </p>
               <p className="is-size-4" style={{ paddingTop: '1em' }}>
-                In 2020, I joined <a href="https://www.sunobi.com/">Sunobi</a> as the first employed engineer. Sunobi is a sales engagement platform for the residential solar market in the US.
-                My responsibilities span frontend, backend, and dev ops as the tech team expanded to 14.
-                The majority of my coding involves Golang, C# and React, both web and native.
-                Since joining Sunobi, we have expanded to facilitate transactions surpassing New Zealand’s total residential solar capacity of over 300MW.
+                In 2020, I joined <a target="_blank" rel="noopener noreferrer" href="https://www.sunobi.com/">Sunobi</a> as the first employed engineer and later served as VP of Development. Sunobi was a sales engagement platform built for the US residential solar market. Over my four years there, I worked end-to-end across frontend, backend and DevOps while helping grow the engineering team to 14. My work focused on Golang, C# and React (web and native), alongside technical strategy and delivery management. During this time, the platform facilitated the sale of more than 300MW of solar systems, equating to hundreds of millions in project value.
+              </p>
+
+              <p className="is-size-4" style={{ paddingTop: '1em' }}>
+                In 2024, I co-founded <a target="_blank" rel="noopener noreferrer" href="https://palebluedawn.com/">Pale Blue Dawn</a>, an integrations platform for the solar industry. I lead development of a block-based workflow builder, powered by a recursive DSL that enables users to create and modify complex integration logic without writing code. The platform features AI-assisted block generation and a RAG guidance layer to suggest logic, reduce setup time, and improve workflow quality.
+              </p>
+              <p className="is-size-4">
+                A key advantage of this design is the ability to visually inspect and replay executions. When external systems fail or return inconsistent data, runs can be retried with full visual traceability of where errors occurred. We design for fragility rather than assuming reliability, allowing users to build resilient automation pipelines across CRM, sales and EPC systems with reduced operational friction.
+              </p>
+              <p className="is-size-4" style={{ paddingTop: '1em' }}>
+                In 2025, I took on the tech lead role for <a target="_blank" rel="noopener noreferrer" href="https://gonegood.co.nz">Gone Good</a>, a food-waste reduction platform in New Zealand. I owned the architecture of three core applications: the mobile customer app, the vendor portal for shop owners, and the internal administration interface, ensuring technical decisions aligned with product and commercial objectives. I also led development of the customer app and guided the engineering team through build, launch and iteration. Gone Good launched in October 2025 and is live in Auckland and Wellington.
               </p>
 
             </div>
