@@ -54,13 +54,12 @@ const Content = () => (
               <h2 className="is-size-1">Computer Science</h2>
               <hr />
               <p className="subtitle is-size-4">
-                During 2018 - 2019 I completed a DipGrad and PGDipSci (with distinction) in Computer Science at Otago University.
-                My Post graduate specialisations were AI and Information Retrieval. Once upon a time I studied commerce majoring in Finance.
+                I completed a DipGrad and PGDipSci (with distinction) in Computer Science at the University of Otago between 2018 - 2019, specialising in Artificial Intelligence and Information Retrieval. Earlier in my academic journey I studied Commerce, majoring in Finance, a background that now helps me align technical decisions with commercial realities.
               </p>
               <p className="subtitle is-size-4">
-                Understanding computer science and a little business makes me a unique and agile asset especially in small teams.
-                Problems have many solutions, I strive to iterate quick and remove assumptons.
-                I avoid tunnel vision and over-engineering AKA drinking Kool-aid.
+                This mix of disciplines shaped how I think and build software. I value iteration over assumption, and believe
+                the best way to validate ideas is to use the tools you create. Real world feedback sharpens product direction and exposes misguided assumptions.
+                I like being proven wrong, it means we've learned something. I work best in small teams where ideas move fast, feedback is honest, and outcomes matter more than ownership.
               </p>
 
 

@@ -20,12 +20,15 @@ class Footer extends React.Component {
             <div className="columns is-space-between is-desktop">
               <div className="column is-half-desktop">
                 <p className="subtitle is-size-4">
-                  I'm currently based in Dunedin, New Zealand.
-                  I happily work with clients globally through <a href="https://www.digitalmates.co.nz/">Digital Mates</a>.
+                  I'm currently based in Dunedin, New Zealand, and I happily work with clients globally.
                 </p>
                 <p className="subtitle is-size-4">
-                  Aside from directly engineering I also consult and offer technical guidance.
-                  It is important to ensure everyone involed with a project is pointing in the same direction especially if there are multiple external parties involved.
+                  Alongside hands-on engineering, I also consult and provide technical guidance.
+                  I believe alignment is critical, especially when multiple external parties are involved.
+                  I work to ensure everyone is moving in the same direction.
+                </p>
+                <p className="subtitle is-size-4">
+                  I'm now seeking a full-time role where I can contribute deeply, ship meaningful work, and grow with a team I believe in.
                 </p>
 
               </div>
@@ -73,10 +76,9 @@ class Footer extends React.Component {
                           <option value="" disabled selected>
                             Help With?
                           </option>
-                          <option value="wordpress">WordPress</option>
-                          <option value="gatsbyJs">Static Generation</option>
                           <option value="react">React</option>
                           <option value="consulting">Technical Guidance</option>
+                          <option value="gatsbyJs">Static Generation</option>
                           <option value="random">Something else</option>
                         </select>
                       </div>
